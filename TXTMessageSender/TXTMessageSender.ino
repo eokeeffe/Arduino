@@ -2,7 +2,7 @@
  http://tronixstuff.com/tutorials > chapter 26 */
 #include <SoftwareSerial.h>
 SoftwareSerial cell(2,3);  // We need to create a serial port on D2/D3 to talk to the GSM module
-char mobilenumber[] = "0872343947";  // Replace xxxxxxxx with the recipient's mobile number
+char mobilenumber[] = "";  // Replace xxxxxxxx with the recipient's mobile number
 void setup()
 {  //Initialize serial ports for communication.
   cell.begin(9600);
